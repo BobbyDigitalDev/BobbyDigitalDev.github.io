@@ -37,6 +37,12 @@ a:active {color:#000; text-decoration:none;}  /* selected link */
 .clear-l {clear: left;}
 .clear-b {clear: both;}
 
+/* #Bootstrap overrides
+================================================ */
+.img-responsive {max-width: 75%; margin: auto;}
+.top-padding {padding-top: .75%;}
+
+
 /*Page Styles
 ================================================= */
 .break-50 {
