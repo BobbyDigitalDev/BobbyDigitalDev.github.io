@@ -13,9 +13,9 @@
 
 /* #typography
 ================================================== */
-h1 {font-family: 'Josefin Sans', sans-serif; font-size: 4em; font-weight: 300; padding: 0.58em 0 .2em 0; margin: 1.2% 0;}
-h2 {font-family: 'Lato', sans-serif;f; font-size: 3em; font-weight: 300; /*margin-top: .1em; margin-bottom: .1em;*/}
-h3 {font-family: 'Holtwood One SC', Georgia, "Times New Roman", Times, serif; font-size: 3em;}
+h1 {font-family: 'Josefin Sans', sans-serif; font-size: 4em; font-weight: 300; padding: 0.58em 0 .2em 0; margin: 1.2% 0; text-transform: capitalize;}
+h2 {font-family: 'Lato', sans-serif;f; font-size: 3em; font-weight: 300; text-transform: capitalize;}
+h3 {font-family: 'Oswald', sans-serif; font-size: 3em; text-transform: capitalize;}
 h4 {}
 body p{font-family: 'Raleway', sans-serif; font-size: 1em; margin: 3% 3%;}
 .tcenter {text-align: center;}
@@ -98,12 +98,9 @@ a:active {color:#000; text-decoration:none;}  /* selected link */
   margin: auto;
   display: block;
 }
-/*.icon-row-single{
-  width: 100%;
-  margin: auto;
-}
-*/
+
 .icon-row img{
   width: 22.32%;
-  margin: 1.1%;
+  margin: .5% .65%;
+
 }
