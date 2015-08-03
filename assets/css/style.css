@@ -18,6 +18,8 @@ h2 {font-family: 'Lato', sans-serif;f; font-size: 2em; font-weight: 100; text-tr
 h3 {font-family: 'Oswald', sans-serif; font-size: 3em; text-transform: capitalize;}
 h4 {font-family: 'Raleway', sans-serif; font-size: 1.5em; font-weight: 800; padding: 0.58em 0 .2em 0; margin: 1.2% 0 0 0; text-transform: capitalize;}
 body p{font-family: 'Raleway', sans-serif; font-size: 1.3em; /*margin: 3% 3%;*/}
+.caption {font-family: 'Raleway', sans-serif; font-size: .8em}
+.list {font-family: 'Raleway', sans-serif; font-size: 1.2em; list-style-type: none; margin-left: -61px;}
 .tcenter {text-align: center;}
 .tleft {text-align: left;}
 .tright {text-align: right;}
@@ -26,7 +28,7 @@ body p{font-family: 'Raleway', sans-serif; font-size: 1.3em; /*margin: 3% 3%;*/}
 ================================================*/
 .font-white {color: white;}
 /*.shadow {text-shadow: -1px 2px 1px rgba(150, 150, 150, 1);}*/
-.shadow { text-shadow: 0px 2px 3px #666;}
+.shadow { text-shadow: 0px 2px 3px #1D1D1D;}
 
 /* #Links
 ================================================== */
@@ -42,7 +44,7 @@ img.img-responsive.image-icon { max-width: 100%;}
 .top-padding {padding-top: .75%;}
 .top-margin {margin-top: 1%;}
 .col-xs-2 {padding-left: 1%; padding-right: 1%;}
-.row {margin-right: 0px; margin-bottom: 0px;}
+.row {margin-right: 0px; margin-bottom: 0px; margin-left: 0px;}
 
 
 /* #Page Styles
@@ -185,7 +187,8 @@ hr.style-seven {
   padding: 20px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
-  background-color: #fff; }
+  background-color: #fff; 
+}
 
 .card {
   position: relative;
@@ -193,15 +196,20 @@ hr.style-seven {
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
   transition: box-shadow .25s;
-  border-radius: 2px; }
-  .card .card-title {
+  border-radius: 2px; 
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-title {
     color: #fff;
     font-size: 1.5em;
     font-weight: 300;
-    overflow: hidden; }
-  .card .card-title.activator {
+    overflow: hidden; 
+}
+
+.card .card-title.activator {
       cursor: pointer; }
-  .card.small, .card.medium, .card.large {
+.card.small, .card.medium, .card.large {
     position: relative; }
     .card.small .card-image, .card.medium .card-image, .card.large .card-image {
       overflow: hidden; }
